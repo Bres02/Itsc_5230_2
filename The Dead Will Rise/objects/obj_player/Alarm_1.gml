@@ -1,0 +1,3 @@
+can_shoot = true
+
+
