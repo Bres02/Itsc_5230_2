@@ -41,9 +41,19 @@ if (keyboard_check_pressed(ord("Z")) or mouse_check_button_pressed(mb_left)) {
 if (keyboard_check_pressed(ord("X")) or mouse_check_button_pressed(mb_right)) {
 	if (global.has_pistol and can_shoot) {
 		
-		//TODO: Insert code that allows player to harm shoot the pistol
+		if (image_xscale = 1) {
+			instance_create_layer(x + 10, y, layer, obj_bullet)
+		} else {
+			instance_create_layer(x - 10, y, layer, obj_bullet)
+		}
 		
 		can_shoot = false
-		alarm[1] = game_get_speed(gamespeed_fps)
+		alarm[1] = game_get_speed(gamespeed_fps) * 2
 	}
+}
+
+if (invulnerable) {
+	image_alpha = 0.5
+} else {
+	image_alpha = 1
 }
