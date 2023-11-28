@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_placeholder",
-    "path": "sprites/spr_placeholder/spr_placeholder.yy",
+    "name": "spr_plchlder_item",
+    "path": "sprites/spr_plchlder_item/spr_plchlder_item.yy",
   },
   "spriteMaskId": null,
   "visible": true,
