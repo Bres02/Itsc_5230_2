@@ -42,6 +42,7 @@
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_skeleton","path":"objects/obj_skeleton/obj_skeleton.yy",},},
+    {"id":{"name":"spr_mausoleum_wall","path":"sprites/spr_mausoleum_wall/spr_mausoleum_wall.yy",},},
     {"id":{"name":"spr_plchlder_item","path":"sprites/spr_plchlder_item/spr_plchlder_item.yy",},},
     {"id":{"name":"obj_pistol","path":"objects/obj_pistol/obj_pistol.yy",},},
     {"id":{"name":"spr_block","path":"sprites/spr_block/spr_block.yy",},},
