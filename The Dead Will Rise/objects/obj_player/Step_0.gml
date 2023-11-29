@@ -1,15 +1,27 @@
-if keyboard_check(vk_left) or keyboard_check(ord("A")) {
-	if (!instance_place(x - move_speed, y, obj_block)) {
-		x += -move_speed
-		image_xscale = -1
+if (keyboard_check(vk_left) or keyboard_check(ord("A"))) or (keyboard_check(vk_right) or keyboard_check(ord("D"))) {
+	if keyboard_check(vk_left) or keyboard_check(ord("A")) {
+		if (!instance_place(x - move_speed, y, obj_block)) {
+			hspeed = -move_speed
+			//object_set_sprite(obj_player, spr_diego_walk)
+			
+			image_xscale = -0.0625
+			image_yscale = 0.0625
+		}
 	}
-}
-
-if keyboard_check(vk_right) or keyboard_check(ord("D")) {
-	if (!instance_place(x + move_speed, y, obj_block)) {
-		x += move_speed
-		image_xscale = 1
+	
+	if keyboard_check(vk_right) or keyboard_check(ord("D")) {
+		if (!instance_place(x + move_speed, y, obj_block)) {
+			hspeed = move_speed
+			//object_set_sprite(obj_player, spr_diego_walk)
+			
+			image_xscale = 0.0625
+			image_yscale = 0.0625
+		}
 	}
+} else {
+	hspeed = 0
+	
+	object_set_sprite(obj_player, spr_diego_idle1)
 }
 
 if (keyboard_check(vk_up) or keyboard_check(vk_space) or keyboard_check(ord("W"))) {
@@ -17,6 +29,7 @@ if (keyboard_check(vk_up) or keyboard_check(vk_space) or keyboard_check(ord("W")
 		vspeed = jump_height
 	}
 }
+
 
 if (instance_place(x, y + 1, obj_block)) {
 	gravity = 0

@@ -43,8 +43,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_placeholder",
-    "path": "sprites/spr_placeholder/spr_placeholder.yy",
+    "name": "spr_diego_idle1",
+    "path": "sprites/spr_diego_idle1/spr_diego_idle1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
