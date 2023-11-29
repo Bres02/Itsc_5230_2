@@ -1,4 +1,5 @@
-if (keyboard_check(vk_left) or keyboard_check(ord("A"))) or (keyboard_check(vk_right) or keyboard_check(ord("D"))) {
+if (keyboard_check(vk_left) or keyboard_check(ord("A"))) or 
+(keyboard_check(vk_right) or keyboard_check(ord("D"))) {
 	if keyboard_check(vk_left) or keyboard_check(ord("A")) {
 		if (!instance_place(x - move_speed, y, obj_block)) {
 			hspeed = -move_speed
@@ -21,7 +22,11 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A"))) or (keyboard_check(vk_r
 } else {
 	hspeed = 0
 	
-	object_set_sprite(obj_player, spr_diego_idle1)
+	if (!global.has_sword) {
+		object_set_sprite(obj_player, spr_diego_idle)
+	} else {
+		//object_set_sprite(obj_player, spr_sword_idle
+	}
 }
 
 if (keyboard_check(vk_up) or keyboard_check(vk_space) or keyboard_check(ord("W"))) {

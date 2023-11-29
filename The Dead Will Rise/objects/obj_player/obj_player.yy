@@ -13,6 +13,7 @@
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_hand_hazard","path":"objects/obj_hand_hazard/obj_hand_hazard.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
@@ -43,8 +44,8 @@
   ],
   "solid": false,
   "spriteId": {
-    "name": "spr_diego_idle1",
-    "path": "sprites/spr_diego_idle1/spr_diego_idle1.yy",
+    "name": "spr_diego_idle",
+    "path": "sprites/spr_diego_idle/spr_diego_idle.yy",
   },
   "spriteMaskId": null,
   "visible": true,
