@@ -4,4 +4,6 @@ if (instance_exists(obj_player)) {
 	}
 }
 
-
+if (!instance_exists(obj_skeleton)) {
+	room_goto(rm_end)
+}
