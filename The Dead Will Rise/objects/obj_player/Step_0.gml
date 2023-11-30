@@ -49,7 +49,11 @@ if (min(vspeed) > 12) {
 if (keyboard_check_pressed(ord("Z")) or mouse_check_button_pressed(mb_left)) {
 	if (global.has_sword and can_swing) {
 		
-		//TODO: Insert code that allows player to harm monsters using the sword
+		if (image_xscale > 0) {
+			instance_create_layer(x + 50, y, layer, obj_sword)
+		} else {
+			instance_create_layer(x - 50, y, layer, obj_sword)
+		}
 		
 		can_swing = false
 		alarm[0] = game_get_speed(gamespeed_fps) / 2
@@ -59,7 +63,7 @@ if (keyboard_check_pressed(ord("Z")) or mouse_check_button_pressed(mb_left)) {
 if (keyboard_check_pressed(ord("X")) or mouse_check_button_pressed(mb_right)) {
 	if (global.has_pistol and can_shoot) {
 		
-		if (image_xscale = 1) {
+		if (image_xscale > 0) {
 			instance_create_layer(x + 10, y, layer, obj_bullet)
 		} else {
 			instance_create_layer(x - 10, y, layer, obj_bullet)

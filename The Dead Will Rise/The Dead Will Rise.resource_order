@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"spr_pistol_txt","order":11,"path":"sprites/spr_pistol_txt/spr_pistol_txt.yy",},
     {"name":"spr_placeholder","order":2,"path":"sprites/spr_placeholder/spr_placeholder.yy",},
     {"name":"obj_border","order":6,"path":"objects/obj_border/obj_border.yy",},
     {"name":"spr_bullet","order":5,"path":"sprites/spr_bullet/spr_bullet.yy",},

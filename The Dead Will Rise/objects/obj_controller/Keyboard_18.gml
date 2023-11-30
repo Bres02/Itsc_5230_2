@@ -14,3 +14,11 @@ if (keyboard_check_pressed(ord("N"))) {
 	room_goto_next()
 }
 
+if (keyboard_check_pressed(ord("S"))) {
+	global.has_sword = true
+}
+
+if (keyboard_check_pressed(ord("P"))) {
+	global.has_pistol = true
+}
+

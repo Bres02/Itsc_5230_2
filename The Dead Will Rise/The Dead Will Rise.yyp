@@ -35,6 +35,7 @@
   },
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"spr_pistol_txt","path":"sprites/spr_pistol_txt/spr_pistol_txt.yy",},},
     {"id":{"name":"spr_placeholder","path":"sprites/spr_placeholder/spr_placeholder.yy",},},
     {"id":{"name":"obj_border","path":"objects/obj_border/obj_border.yy",},},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
