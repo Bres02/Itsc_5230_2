@@ -3,7 +3,13 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A"))) or
 	if keyboard_check(vk_left) or keyboard_check(ord("A")) {
 		if (!instance_place(x - move_speed, y, obj_block)) {
 			hspeed = -move_speed
-			//object_set_sprite(obj_player, spr_diego_walk)
+			if (!global.has_sword && !global.has_pistol) {
+				//object_set_sprite(obj_player, spr_diego_walk)
+			} else if (global.has_sword && !global.has_pistol) {
+				//object_set_sprite(obj_player, spr_sword_walk)
+			} else {
+				//object_set_sprite(obj_player, spr_pistol_walk)
+			}
 			
 			image_xscale = -0.0625
 			image_yscale = 0.0625
@@ -13,7 +19,13 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A"))) or
 	if keyboard_check(vk_right) or keyboard_check(ord("D")) {
 		if (!instance_place(x + move_speed, y, obj_block)) {
 			hspeed = move_speed
-			//object_set_sprite(obj_player, spr_diego_walk)
+			if (!global.has_sword && !global.has_pistol) {
+				//object_set_sprite(obj_player, spr_diego_walk)
+			} else if (global.has_sword && !global.has_pistol) {
+				//object_set_sprite(obj_player, spr_sword_walk)
+			} else {
+				//object_set_sprite(obj_player, spr_pistol_walk)
+			}
 			
 			image_xscale = 0.0625
 			image_yscale = 0.0625
@@ -22,10 +34,12 @@ if (keyboard_check(vk_left) or keyboard_check(ord("A"))) or
 } else {
 	hspeed = 0
 	
-	if (!global.has_sword) {
+	if (!global.has_sword && !global.has_pistol) {
 		object_set_sprite(obj_player, spr_diego_idle)
+	} else if (global.has_sword && ! global.has_pistol) {
+		object_set_sprite(obj_player, spr_sword_idle)
 	} else {
-		//object_set_sprite(obj_player, spr_sword_idle
+		//object_set_sprite(obj_player, spr_pistol_idle)
 	}
 }
 

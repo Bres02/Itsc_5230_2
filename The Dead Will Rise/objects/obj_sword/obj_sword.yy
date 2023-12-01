@@ -30,8 +30,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_plchlder_item",
-    "path": "sprites/spr_plchlder_item/spr_plchlder_item.yy",
+    "name": "spr_sword",
+    "path": "sprites/spr_sword/spr_sword.yy",
   },
   "spriteMaskId": null,
   "visible": true,
