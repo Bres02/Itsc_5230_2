@@ -9,3 +9,5 @@ invulnerable = false
 
 image_xscale = 0.0625
 image_yscale = 0.0625
+
+hspeed = 0

@@ -4,7 +4,7 @@
   "name": "spr_sword_idle",
   "bbox_bottom": 1013,
   "bbox_left": 192,
-  "bbox_right": 693,
+  "bbox_right": 768,
   "bbox_top": 8,
   "bboxMode": 0,
   "collisionKind": 0,
