@@ -1,0 +1,2 @@
+recent_collision = false
+
