@@ -27,3 +27,7 @@ if (!instance_exists(obj_skeleton) && room == rm_cemetery) {
 		key_created = true
 	}
 }
+
+if (global.game_over) {
+	room_goto(rm_gameover)
+}

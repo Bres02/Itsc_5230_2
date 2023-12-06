@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_mausoleum_wall",
-  "bbox_bottom": 95,
+  "name": "spr_mausoleum_floor",
+  "bbox_bottom": 639,
   "bbox_left": 0,
-  "bbox_right": 191,
-  "bbox_top": 0,
+  "bbox_right": 639,
+  "bbox_top": 1,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"a1b4791a-9517-4554-9d5c-225550e2c7fe",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"827193a2-9730-4285-aa87-612d455f5a30",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 96,
+  "height": 640,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"67d921e1-14a4-4ffe-988e-e7c8bf7afc0b","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f642b985-d7f5-4f73-9071-0e585358185e","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": {
     "resourceType": "GMNineSliceData",
@@ -55,7 +55,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_mausoleum_wall",
+    "name": "spr_mausoleum_floor",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -77,13 +77,13 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"a1b4791a-9517-4554-9d5c-225550e2c7fe","path":"sprites/spr_mausoleum_wall/spr_mausoleum_wall.yy",},},},"Disabled":false,"id":"c21cbb63-6354-4d70-938a-39975a226cc8","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"827193a2-9730-4285-aa87-612d455f5a30","path":"sprites/spr_mausoleum_floor/spr_mausoleum_floor.yy",},},},"Disabled":false,"id":"c4a3bcec-ee58-4c81-80e8-18bb7c38cc9a","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
     "volume": 1.0,
-    "xorigin": 96,
-    "yorigin": 48,
+    "xorigin": 320,
+    "yorigin": 320,
   },
   "swatchColours": null,
   "swfPrecision": 2.525,
@@ -93,5 +93,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 192,
+  "width": 640,
 }

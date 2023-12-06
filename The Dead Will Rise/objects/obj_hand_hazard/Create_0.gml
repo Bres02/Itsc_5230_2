@@ -1,3 +1,3 @@
 spawn_y = y
 
-depth = 2
+depth = 3
