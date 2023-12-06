@@ -6,9 +6,9 @@ right_x = 0
 left_x = 0
 x_dir = 0
 
-grav = 0.25
+jump = false
 
-//curr_checkpoint = 
+gravity_direction = 270
 
 // Allows player to have multiple invincibility frames after being hit
 invulnerable = false

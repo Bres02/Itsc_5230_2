@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_plchlder_item",
-    "path": "sprites/spr_plchlder_item/spr_plchlder_item.yy",
+    "name": "spr_checkpoint",
+    "path": "sprites/spr_checkpoint/spr_checkpoint.yy",
   },
   "spriteMaskId": null,
   "visible": true,

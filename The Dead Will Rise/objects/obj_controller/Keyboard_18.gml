@@ -22,3 +22,6 @@ if (keyboard_check_pressed(ord("P"))) {
 	global.has_pistol = true
 }
 
+if (keyboard_check_pressed(ord("Q"))) {
+	lives -= 1
+}

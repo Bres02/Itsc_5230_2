@@ -4,11 +4,11 @@ if ( bbox_bottom <= other.bbox_top ) { // First we make sure the player is stand
 			y += 1;
 		}
 	
-		move_y = 0;
+		vspeed = 0;
+		gravity = 0;
 	}
-	
+}	
 	
 	// Add platform movement to player movement
 	move_x += other.move_x
 	move_y += other.move_y
-}

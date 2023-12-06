@@ -1,36 +1,44 @@
-if (x_dir < 0) {
-	if (!instance_place(x - move_speed, y, obj_block)) {
-		move_x = -move_speed
-		
-		image_xscale = -0.0625
-		image_yscale = 0.0625
-	}
-} else if (x_dir > 0) {
-	if (!instance_place(x + move_speed, y, obj_block)) {
-		move_x = move_speed
-		
-		image_xscale = 0.0625
-		image_yscale = 0.0625
-	}
-} else {
-	move_x = 0
-}
-
-if keyboard_check(vk_space) or keyboard_check(ord("W")) {
-	if (instance_place(x, y + 1, obj_block) or instance_place(x, y + 1, obj_platform)) {
-		move_y = jump_height
-	}
-}
-
-if (place_meeting(x, y + 1, obj_block) or instance_place(x, y + 1, obj_platform)) {
+if (x_dir != 0) {
 	
+	if (x_dir < 0) {
+		if (!instance_place(x - move_speed, y, obj_block)) {
+			hspeed = -move_speed
+			
+			image_xscale = -0.0625
+			image_yscale = 0.0625
+		}
+	}
+	
+	if (x_dir > 0) {
+		if (!instance_place(x + move_speed, y, obj_block)) {
+			hspeed = move_speed
+			
+			image_xscale = 0.0625
+			image_yscale = 0.0625
+		}
+	}
+	
+} else {
+	hspeed = 0
+}
+
+if (jump) {
+	if (instance_place(x, y + 1, obj_block)) {
+		vspeed = jump_height
+		jump = false
+	}
 }
 
 
-//Now we actually move the player
-x += move_x
-y += move_y
+if (instance_place(x, y + 1, obj_block)) {
+	gravity = 0
+} else {
+	gravity = 0.25
+}
 
+if (min(vspeed) > 12) {
+	vspeed = 12
+}
 
 
 if (keyboard_check_pressed(ord("Z")) or mouse_check_button_pressed(mb_left)) {
@@ -43,7 +51,7 @@ if (keyboard_check_pressed(ord("Z")) or mouse_check_button_pressed(mb_left)) {
 		}
 		
 		can_swing = false
-		alarm[0] = game_get_speed(gamespeed_fps) / 2
+		alarm[0] = game_get_speed(gamespeed_fps)
 	}
 }
 

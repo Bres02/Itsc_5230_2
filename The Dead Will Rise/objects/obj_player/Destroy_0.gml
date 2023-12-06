@@ -2,9 +2,8 @@
 lives -= 1
 
 if (lives > 0) {
+	obj_controller.dead = true
 	room_restart()
-	//player.x = curr_checkpoint.x
-	//player.y = curr_checkpoint.y
 } else {
 	global.game_over = true
 }
