@@ -22,7 +22,7 @@ if (keyboard_check_pressed(ord("P"))) { // Insta-Pistol
 	global.has_pistol = true
 }
 
-if (keyboard_check_pressed(ord("K"))) { // Kill Player/Lose a life
-	obj_player.hp = 0
+if (keyboard_check_pressed(ord("K"))) { //Lose a life
+	lives--
 }
 
