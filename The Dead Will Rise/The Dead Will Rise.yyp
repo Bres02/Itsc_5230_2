@@ -63,6 +63,7 @@
     {"id":{"name":"obj_key","path":"objects/obj_key/obj_key.yy",},},
     {"id":{"name":"obj_button_parent","path":"objects/obj_button_parent/obj_button_parent.yy",},},
     {"id":{"name":"snd_trap","path":"sounds/snd_trap/snd_trap.yy",},},
+    {"id":{"name":"spr_death","path":"sprites/spr_death/spr_death.yy",},},
     {"id":{"name":"rm_credits","path":"rooms/rm_credits/rm_credits.yy",},},
     {"id":{"name":"obj_hitbox","path":"objects/obj_hitbox/obj_hitbox.yy",},},
     {"id":{"name":"spr_hitbox","path":"sprites/spr_hitbox/spr_hitbox.yy",},},

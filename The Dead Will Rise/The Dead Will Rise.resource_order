@@ -45,6 +45,7 @@
     {"name":"obj_key","order":14,"path":"objects/obj_key/obj_key.yy",},
     {"name":"obj_button_parent","order":20,"path":"objects/obj_button_parent/obj_button_parent.yy",},
     {"name":"snd_trap","order":11,"path":"sounds/snd_trap/snd_trap.yy",},
+    {"name":"spr_death","order":43,"path":"sprites/spr_death/spr_death.yy",},
     {"name":"rm_credits","order":7,"path":"rooms/rm_credits/rm_credits.yy",},
     {"name":"obj_hitbox","order":9,"path":"objects/obj_hitbox/obj_hitbox.yy",},
     {"name":"spr_hitbox","order":15,"path":"sprites/spr_hitbox/spr_hitbox.yy",},

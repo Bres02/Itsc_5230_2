@@ -1,17 +1,3 @@
-if (instance_exists(obj_player)) {
-	
-	if (obj_player.hp <= 0) {
-		instance_destroy(obj_player)
-		lives -= 1
-		if (lives > 0) {
-			room_restart()
-			dead = true
-		} else {
-			global.game_over = true
-		}
-	}
-} 
-
 // Creates a key when the player kills all skeletons in the Cemetery level
 if (!instance_exists(obj_skeleton) && room == rm_cemetery) {
 	if (!key_created) {

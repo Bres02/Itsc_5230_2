@@ -4,8 +4,3 @@ if (dead) {
 	
 	dead = false
 }
-
-if (global.game_over) {
-	room_goto(rm_gameover)
-	curr_room = -1
-}
