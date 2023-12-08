@@ -2,16 +2,13 @@ if (instance_exists(obj_player)) {
 	
 	if (obj_player.hp <= 0) {
 		instance_destroy(obj_player)
-	}
-	
-	if (instance_exists(obj_player)) {
-		if (dead) {
-			obj_player.x = curr_checkpoint.x
-			obj_player.y = curr_checkpoint.y
-			
-			dead = false
+		lives -= 1
+		if (lives > 0) {
+			room_restart()
+			dead = true
+		} else {
+			global.game_over = true
 		}
-		
 	}
 } 
 
@@ -21,11 +18,6 @@ if (!instance_exists(obj_skeleton) && room == rm_cemetery) {
 		instance_create_layer(obj_player.x, obj_player.y - 80, "Instances", obj_key)
 		key_created = true
 	}
-}
-
-if (global.game_over) {
-	room_goto(rm_gameover)
-	curr_room = -1
 }
 
 // Music determination

@@ -1,15 +1,20 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_checkpoint_txt",
+  "name": "obj_txt_checkpoint",
   "eventList": [],
   "managed": true,
-  "overriddenProperties": [],
+  "overriddenProperties": [
+    {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_txt_parent","path":"objects/obj_txt_parent/obj_txt_parent.yy",},"propertyId":{"name":"txt","path":"objects/obj_txt_parent/obj_txt_parent.yy",},"value":"Checkpoint!",},
+  ],
   "parent": {
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_txt_parent",
+    "path": "objects/obj_txt_parent/obj_txt_parent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
@@ -25,10 +30,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_checkpoint_txt",
-    "path": "sprites/spr_checkpoint_txt/spr_checkpoint_txt.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }
