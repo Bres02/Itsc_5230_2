@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_platform",
+  "name": "obj_trampoline",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,},
@@ -34,11 +34,12 @@
   "properties": [
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"move_speed","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"1","varType":0,},
     {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"move_path","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":5,},
+    {"resourceType":"GMObjectProperty","resourceVersion":"1.0","name":"bounce","filters":[],"listItems":[],"multiselect":false,"rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"value":"0","varType":3,},
   ],
-  "solid": true,
+  "solid": false,
   "spriteId": {
-    "name": "spr_block",
-    "path": "sprites/spr_block/spr_block.yy",
+    "name": "spr_trampoline",
+    "path": "sprites/spr_trampoline/spr_trampoline.yy",
   },
   "spriteMaskId": null,
   "visible": true,

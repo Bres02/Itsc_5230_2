@@ -34,14 +34,14 @@ if (state = States.regular) {
 }
 
 if (jump) {
-	if (instance_place(x, y + 1, obj_block) or instance_place(x, y + 1, obj_platform)) {
+	if (instance_place(x, y + 1, obj_block) or instance_place(x, y + 1, obj_trampoline)) {
 		vspeed = jump_height
 		jump = false
 	}
 }
 
 
-if (instance_place(x, y + 1, obj_block) or instance_place(x, y + 1, obj_platform)) {
+if (instance_place(x, y + 1, obj_block) or instance_place(x, y + 1, obj_trampoline)) {
 	gravity = 0
 } else {
 	gravity = 0.25
