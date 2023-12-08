@@ -1,2 +1,0 @@
-touch_border = false
-

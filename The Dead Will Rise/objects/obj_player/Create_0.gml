@@ -1,6 +1,4 @@
 hp = 100
-move_x = 0
-move_y = 0
 
 right_x = 0
 left_x = 0
@@ -15,3 +13,10 @@ invulnerable = false
 
 image_xscale = 0.0625
 image_yscale = 0.0625
+
+enum States {
+	regular,
+	slashing
+}
+
+state = States.regular

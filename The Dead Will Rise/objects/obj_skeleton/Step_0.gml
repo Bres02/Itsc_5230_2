@@ -3,10 +3,10 @@ if (hp <= 0) {
 }
 
 if (cursed) {
-	//sprite_index = spr_skeleton_cursed
-	
+	image_blend = make_color_rgb(255, 0, 255)
+	hp = 100
 } else {
-	//sprite_index = spr_skeleton
+	image_blend = -1
 }
 
 // Adds a small knockback to all attacks made by the player against the skeleton

@@ -3,6 +3,7 @@
 if (!invulnerable) {
 	hp -= 20
 
+	audio_play_sound(snd_player_hurt, 1, false)
 	invulnerable = true
 
 	alarm[2] = game_get_speed(gamespeed_fps) * 3

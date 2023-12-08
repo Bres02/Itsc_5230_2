@@ -1,0 +1,18 @@
+Sounds
+player hurt: made by ckolar612 on freesound.org, CC0 - https://freesound.org/people/ckolar612/sounds/518216/
+skeleton death: made by dobroide on freesound.org, CC0 - https://freesound.org/people/dobroide/sounds/124188/
+ghost death: made by HorrorAudio on freesound.org, CC0 - https://freesound.org/people/HorrorAudio/sounds/431979/
+arm trap: made by bevibeldesign on freesound.org, CC0 - https://freesound.org/people/bevibeldesign/sounds/315829/
+flinklock: made by breezeark on freesound.org, CC0 - https://freesound.org/people/breezeark/sounds/258250/
+sword : made by julianmateo_ on freesound.org, CC0 - https://freesound.org/people/julianmateo_/sounds/522701/
+gate: made by thomasanthony321 on freesound.org, CC0 - https://freesound.org/people/thomasanthony321/sounds/682776/
+pwerup: made by InspectorJ on freesound.org, CC0 - https://freesound.org/people/InspectorJ/sounds/411460/
+boss: made by deleted_user_3424813 on freesound.org, CC0 - https://freesound.org/people/deleted_user_3424813/sounds/232107/
+bounce: made by MATRIXXX_ on freesound.org, CC0 - https://freesound.org/people/MATRIXXX_/sounds/459341/
+
+
+Music
+crypt music: made by Machine on opengameart.org, CC0 - https://opengameart.org/content/crypt
+graveyard: made by Tozan on opengameart.org, CC0 - https://opengameart.org/content/long-graveyard-cem
+boss music: made by KarateStudios on opengameart.org, CC0 - https://opengameart.org/content/inside-the-overlords-domain
+menu music: made by Otto Halmén on opengameart.org, CC0 - https://opengameart.org/content/death-is-just-another-path

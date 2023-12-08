@@ -4,5 +4,3 @@ if (obj_player.image_xscale > 0) {
 } else {
 	hspeed = -sp
 }
-
-

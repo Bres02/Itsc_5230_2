@@ -1,3 +1,5 @@
 can_swing = true
 
-instance_destroy(obj_sword)
+state = States.regular
+
+instance_destroy(obj_hitbox)

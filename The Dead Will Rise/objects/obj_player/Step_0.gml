@@ -22,15 +22,26 @@ if (x_dir != 0) {
 	hspeed = 0
 }
 
+if (state = States.regular) {
+	if (x_dir != 0) {
+		sprite_index = spr_diego_walk
+	} else {
+		sprite_index = spr_diego_idle
+	}
+} else if (state = States.slashing) {
+	sprite_index = spr_sword_slash
+	
+}
+
 if (jump) {
-	if (instance_place(x, y + 1, obj_block)) {
+	if (instance_place(x, y + 1, obj_block) or instance_place(x, y + 1, obj_platform)) {
 		vspeed = jump_height
 		jump = false
 	}
 }
 
 
-if (instance_place(x, y + 1, obj_block)) {
+if (instance_place(x, y + 1, obj_block) or instance_place(x, y + 1, obj_platform)) {
 	gravity = 0
 } else {
 	gravity = 0.25
@@ -51,6 +62,9 @@ if (keyboard_check_pressed(ord("Z")) or mouse_check_button_pressed(mb_left)) {
 		}
 		
 		can_swing = false
+		state = States.slashing
+		audio_play_sound(snd_sword_swing, 1, false)
+		
 		alarm[0] = game_get_speed(gamespeed_fps)
 	}
 }
@@ -65,7 +79,9 @@ if (keyboard_check_pressed(ord("X")) or mouse_check_button_pressed(mb_right)) {
 		}
 		
 		can_shoot = false
-		alarm[1] = game_get_speed(gamespeed_fps) * 2
+		audio_play_sound(snd_gunshot, 1, false)
+		
+		alarm[1] = game_get_speed(gamespeed_fps) * 3
 	}
 }
 
