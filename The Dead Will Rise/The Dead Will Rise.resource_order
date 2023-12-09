@@ -104,6 +104,7 @@
     {"name":"spr_life_temp","order":9,"path":"sprites/spr_life_temp/spr_life_temp.yy",},
     {"name":"spr_gate","order":18,"path":"sprites/spr_gate/spr_gate.yy",},
     {"name":"obj_txt_checkpoint","order":27,"path":"objects/obj_txt_checkpoint/obj_txt_checkpoint.yy",},
+    {"name":"Spr_fireball","order":46,"path":"sprites/Spr_fireball/Spr_fireball.yy",},
     {"name":"spr_skele_boss","order":26,"path":"sprites/spr_skele_boss/spr_skele_boss.yy",},
     {"name":"spr_sword_walk","order":13,"path":"sprites/spr_sword_walk/spr_sword_walk.yy",},
     {"name":"obj_block","order":1,"path":"objects/obj_block/obj_block.yy",},

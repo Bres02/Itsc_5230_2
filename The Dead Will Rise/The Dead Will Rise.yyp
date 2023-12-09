@@ -31,7 +31,7 @@
   "isEcma": false,
   "LibraryEmitters": [],
   "MetaData": {
-    "IDEVersion": "2023.11.0.121",
+    "IDEVersion": "2023.8.2.108",
   },
   "resources": [
     {"id":{"name":"path_5","path":"paths/path_5/path_5.yy",},},
@@ -126,6 +126,7 @@
     {"id":{"name":"spr_life_temp","path":"sprites/spr_life_temp/spr_life_temp.yy",},},
     {"id":{"name":"spr_gate","path":"sprites/spr_gate/spr_gate.yy",},},
     {"id":{"name":"obj_txt_checkpoint","path":"objects/obj_txt_checkpoint/obj_txt_checkpoint.yy",},},
+    {"id":{"name":"Spr_fireball","path":"sprites/Spr_fireball/Spr_fireball.yy",},},
     {"id":{"name":"spr_skele_boss","path":"sprites/spr_skele_boss/spr_skele_boss.yy",},},
     {"id":{"name":"spr_sword_walk","path":"sprites/spr_sword_walk/spr_sword_walk.yy",},},
     {"id":{"name":"obj_block","path":"objects/obj_block/obj_block.yy",},},
