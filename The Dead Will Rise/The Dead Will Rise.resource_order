@@ -30,6 +30,7 @@
     {"name":"rm_gameover","order":2,"path":"rooms/rm_gameover/rm_gameover.yy",},
     {"name":"spr_grass","order":31,"path":"sprites/spr_grass/spr_grass.yy",},
     {"name":"snd_gunshot","order":4,"path":"sounds/snd_gunshot/snd_gunshot.yy",},
+    {"name":"obj_txt_gate","order":34,"path":"objects/obj_txt_gate/obj_txt_gate.yy",},
     {"name":"obj_spikes","order":13,"path":"objects/obj_spikes/obj_spikes.yy",},
     {"name":"spr_border","order":1,"path":"sprites/spr_border/spr_border.yy",},
     {"name":"spr_gun","order":27,"path":"sprites/spr_gun/spr_gun.yy",},

@@ -81,7 +81,7 @@ if (keyboard_check_pressed(ord("X")) or mouse_check_button_pressed(mb_right)) {
 		can_shoot = false
 		audio_play_sound(snd_gunshot, 1, false)
 		
-		alarm[1] = game_get_speed(gamespeed_fps) * 3
+		alarm[1] = game_get_speed(gamespeed_fps) * 2
 	}
 }
 

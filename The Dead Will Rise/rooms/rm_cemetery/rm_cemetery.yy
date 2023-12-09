@@ -77,6 +77,7 @@
     {"name":"inst_39EC5512","path":"rooms/rm_cemetery/rm_cemetery.yy",},
     {"name":"inst_1EDEFB37","path":"rooms/rm_cemetery/rm_cemetery.yy",},
     {"name":"inst_E1F7D03","path":"rooms/rm_cemetery/rm_cemetery.yy",},
+    {"name":"inst_6075BA17","path":"rooms/rm_cemetery/rm_cemetery.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -188,6 +189,7 @@
           ],"rotation":0.0,"scaleX":0.125,"scaleY":0.125,"x":1424.0,"y":512.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1EDEFB37","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_arrow","path":"objects/obj_arrow/obj_arrow.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":3232.0,"y":416.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E1F7D03","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_transition_zone","path":"objects/obj_transition_zone/obj_transition_zone.yy",},"properties":[],"rotation":0.0,"scaleX":1.5,"scaleY":3.0,"x":3280.0,"y":416.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6075BA17","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_txt_gate","path":"objects/obj_txt_gate/obj_txt_gate.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":2976.0,"y":352.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Background_Assets","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_750AC864","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_gravestone1","path":"sprites/spr_gravestone1/spr_gravestone1.yy",},"x":640.0,"y":480.0,},

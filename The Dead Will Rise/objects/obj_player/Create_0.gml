@@ -20,3 +20,8 @@ enum States {
 }
 
 state = States.regular
+
+if (room == rm_cemetery) {
+	obj_controller.key_created = false
+	global.has_sword = false
+}

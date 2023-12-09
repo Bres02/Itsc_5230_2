@@ -1,5 +1,5 @@
 if (instance_exists(obj_player)) {
-	if ( distance_to_object(obj_player) < activation_range ) {
+	if ( distance_to_object(obj_player) < activation_range && obj_player.y < spawn_y) {
 		while ( y != spawn_y - 128) {
 			y -= 1
 			
