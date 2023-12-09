@@ -129,6 +129,7 @@
     {"name":"inst_7BD25F2B","path":"rooms/rm_mausoleum/rm_mausoleum.yy",},
     {"name":"inst_4DA517B4","path":"rooms/rm_mausoleum/rm_mausoleum.yy",},
     {"name":"inst_CEA9929","path":"rooms/rm_mausoleum/rm_mausoleum.yy",},
+    {"name":"inst_271C390A","path":"rooms/rm_mausoleum/rm_mausoleum.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -315,6 +316,7 @@
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_trampoline","path":"objects/obj_trampoline/obj_trampoline.yy",},"propertyId":{"name":"move_path","path":"objects/obj_trampoline/obj_trampoline.yy",},"value":"path_7",},
             {"resourceType":"GMOverriddenProperty","resourceVersion":"1.0","name":"","objectId":{"name":"obj_trampoline","path":"objects/obj_trampoline/obj_trampoline.yy",},"propertyId":{"name":"move_speed","path":"objects/obj_trampoline/obj_trampoline.yy",},"value":"2",},
           ],"rotation":0.0,"scaleX":1.5,"scaleY":1.5,"x":4000.0,"y":896.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_271C390A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hand_hazard","path":"objects/obj_hand_hazard/obj_hand_hazard.yy",},"properties":[],"rotation":0.0,"scaleX":0.125,"scaleY":0.125,"x":1280.0,"y":352.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRAssetLayer","resourceVersion":"1.0","name":"Background_Assets","assets":[
         {"resourceType":"GMRSpriteGraphic","resourceVersion":"1.0","name":"graphic_5FA63489","animationSpeed":1.0,"colour":4294967295,"frozen":false,"headPosition":0.0,"ignore":false,"inheritedItemId":null,"inheritItemSettings":false,"rotation":-90.0,"scaleX":1.0,"scaleY":1.0,"spriteId":{"name":"spr_cobweb","path":"sprites/spr_cobweb/spr_cobweb.yy",},"x":32.0,"y":608.0,},
