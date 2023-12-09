@@ -22,11 +22,9 @@ if (room == rm_title && curr_room == 0) { // Title screen
 	audio_pause_all()
 	audio_play_sound(snd_boss_music, 2, true)
 	curr_room = 4
-} else if (room == rm_end && curr_room == 4) { // Win screen
-	audio_pause_all()
-	audio_play_sound(snd_title, 2, true)
 } else if (global.game_over && curr_room == -1) { // Gameover screen
 	audio_pause_all()
-	audio_play_sound(snd_title, 2, true)
+	audio_play_sound(snd_mausoleum, 2, true)
 	curr_room = 0
 }
+
