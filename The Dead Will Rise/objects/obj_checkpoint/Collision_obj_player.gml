@@ -4,4 +4,4 @@ if (obj_controller.curr_checkpoint != self) {
 
 obj_controller.curr_checkpoint = self
 
-
+instance_create_layer(x, y - 20, "Instances", obj_txt_checkpoint)

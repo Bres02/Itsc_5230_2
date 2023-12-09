@@ -1,7 +1,7 @@
 {
   "resourceType": "GMPath",
   "resourceVersion": "1.0",
-  "name": "path_3",
+  "name": "path_6",
   "closed": false,
   "kind": 0,
   "parent": {
@@ -9,8 +9,8 @@
     "path": "folders/Paths.yy",
   },
   "points": [
-    {"speed":100.0,"x":2144.0,"y":448.0,},
-    {"speed":100.0,"x":2592.0,"y":448.0,},
+    {"speed":100.0,"x":4128.0,"y":480.0,},
+    {"speed":100.0,"x":4480.0,"y":480.0,},
   ],
   "precision": 4,
 }
